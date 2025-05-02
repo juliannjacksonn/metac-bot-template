@@ -241,9 +241,9 @@ class TemplateForecaster(ForecastBot):
         )
         prompt = clean_indents(
             f"""
-            You are a professional forecaster interviewing for a job.
+            You are an excellent professional forecaster on a job.
 
-            Your interview question is:
+            Your question is:
             {question.question_text}
 
             Background:
